@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 4em;
+}
+
+main {
+    background-image: url(./image/logo.jpg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+thead th {
+    padding: 0 10px !important;
+    background-color: orange !important;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+td:not(td:nth-child(2)) {
+    opacity: 0.9;
+}
+
+tr>td {
+    width: 100%;
+}
+
+
+td:nth-child(even) {
+    text-align: center;
+    background-color: #ffc14d;
+}
