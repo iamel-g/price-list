@@ -23,7 +23,7 @@ thead th {
 }
 
 td:not(td:nth-child(2)) {
-    opacity: 0.8;
+    opacity: 0.86;
 }
 
 tr>td {
